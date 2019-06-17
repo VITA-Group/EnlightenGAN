@@ -8,6 +8,7 @@ __pycache__/
 
 # Distribution / packaging
 checkpoints/
+._.DS_Store
 predict/
 results/
 model/
