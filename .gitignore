@@ -8,6 +8,7 @@ __pycache__/
 
 # Distribution / packaging
 checkpoints/
+.DS_Store
 ._.DS_Store
 .vscode
 predict/
