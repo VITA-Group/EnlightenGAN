@@ -15,3 +15,7 @@
 ### Testing process
 
 ```python scipts/script.py --predict```
+
+### Dataset preparing
+
+[Testing data](https://drive.google.com/drive/folders/1lp6m5JE3kf3M66Dicbx5wSnvhxt90V4T?usp=sharing)
