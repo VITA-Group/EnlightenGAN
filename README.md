@@ -7,3 +7,11 @@
 
 ### Overal Architecture
 ![architecture](/assets/arch.png)
+
+### Training process
+
+```python scripts/script.py --train```
+
+### Testing process
+
+```python scipts/script.py --predict```
