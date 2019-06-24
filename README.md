@@ -8,8 +8,12 @@
 ### Overal Architecture
 ![architecture](/assets/arch.png)
 
+##Environment Prearing
+```pip install -r requirement.txt```
 ### Training process
-
+Before starting training process, you should launch the `visdom.server` for visualizing.
+```nohup python -m visdom.server -port=8097```
+then run the following command
 ```python scripts/script.py --train```
 
 ### Testing process

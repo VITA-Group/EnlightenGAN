@@ -4,7 +4,6 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument("--port", type=str, default="8097")
 parser.add_argument("--train", action='store_true')
-parser.add_argument("--test", action='store_true')
 parser.add_argument("--predict", action='store_true')
 opt = parser.parse_args()
 
@@ -37,24 +36,6 @@ if opt.train:
         --vgg_choose relu5_1 \
 		--gpu_ids 0,1,2 \
 		--display_port=" + opt.port)
-
-elif opt.test:
-	for i in range(20):
-	        os.system("python test.py \
-	        	--dataroot /vita1_ssd1/yifan/compete_LOL \
-	        	--name enlightening \
-	        	--model single \
-	        	--which_direction AtoB \
-	        	--no_dropout \
-	        	--dataset_mode pair \
-	        	--which_model_netG sid_unet_resize \
-	        	--skip 1 \
-	        	--use_norm 1 \
-	        	--use_wgan 0 \
-	        	--instance_norm 0 \
-                --self_attention \
-                --times_residual \
-	        	--which_epoch " + str(i*5+100))
 
 elif opt.predict:
 	for i in range(1):
