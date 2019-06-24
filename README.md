@@ -28,3 +28,13 @@ then run the following command
 Training data [[Google Drive]](https://drive.google.com/file/d/1ESHwOxF7qKOauNUpGS8q3QL5aK22qJBS/view?usp=sharing) (unpaired images collected from multiple datasets)
 
 Testing data [[Google Drive]](https://drive.google.com/drive/folders/1lp6m5JE3kf3M66Dicbx5wSnvhxt90V4T?usp=sharing) (including LIME, MEF, NPE, VV, DICP)
+
+If you find this work useful for you, please cite
+```
+@article{jiang2019enlightengan,
+  title={EnlightenGAN: Deep Light Enhancement without Paired Supervision},
+  author={Jiang, Yifan and Gong, Xinyu and Liu, Ding and Cheng, Yu and Fang, Chen and Shen, Xiaohui and Yang, Jianchao and Zhou, Pan and Wang, Zhangyang},
+  journal={arXiv preprint arXiv:1906.06972},
+  year={2019}
+}
+```
