@@ -10,7 +10,7 @@
 
 ## Environment Preparing
 ```pip install -r requirement.txt``` </br>
-```mkdir model```
+```mkdir model``` </br>
 Download VGG pretrained model from [Google Drive](https://drive.google.com/file/d/1IfCeihmPqGWJ0KHmH-mTMi_pn3z3Zo-P/view?usp=sharing), [Google Drive](https://drive.google.com/file/d/190BBev58S1QRS2nDKQR5Ijx04_GOJgW6/view?usp=sharing) and then put them into the directory `model`.
 
 ### Training process
