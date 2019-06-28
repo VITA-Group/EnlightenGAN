@@ -8,7 +8,7 @@
 ### Overal Architecture
 ![architecture](/assets/arch.png)
 
-##Environment Prearing
+## Environment Preparing
 ```pip install -r requirement.txt```
 ### Training process
 Before starting training process, you should launch the `visdom.server` for visualizing.
@@ -27,7 +27,7 @@ then run the following command
 
 Training data [[Google Drive]](https://drive.google.com/file/d/1ESHwOxF7qKOauNUpGS8q3QL5aK22qJBS/view?usp=sharing) (unpaired images collected from multiple datasets)
 
-Testing data [[Google Drive]](https://drive.google.com/drive/folders/1lp6m5JE3kf3M66Dicbx5wSnvhxt90V4T?usp=sharing) (including LIME, MEF, NPE, VV, DICP)
+Testing data [[Google Drive]](https://drive.google.com/open?id=1PrvL8jShZ7zj2IC3fVdDxBY1oJR72iDf) (including LIME, MEF, NPE, VV, DICP)
 
 If you find this work useful for you, please cite
 ```
