@@ -24,11 +24,13 @@ then run the following command
 
 ### Testing process
 
+Download [pretrained model](https://drive.google.com/file/d/1AkV-n2MdyfuZTFvcon8Z4leyVb0i7x63/view?usp=sharing) and put it into `./checkpoints/enlightening`
+
 ```python scipts/script.py --predict```
 
 ### Dataset preparing
 
-Training data [[Google Drive]](https://drive.google.com/file/d/1ESHwOxF7qKOauNUpGS8q3QL5aK22qJBS/view?usp=sharing) (unpaired images collected from multiple datasets)
+Training data [[Google Drive]](https://drive.google.com/drive/folders/1fwqz8-RnTfxgIIkebFG2Ej3jQFsYECh0?usp=sharing) (unpaired images collected from multiple datasets)
 
 Testing data [[Google Drive]](https://drive.google.com/open?id=1PrvL8jShZ7zj2IC3fVdDxBY1oJR72iDf) (including LIME, MEF, NPE, VV, DICP)
 
