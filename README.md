@@ -32,7 +32,7 @@ then run the following command
 
 Download [pretrained model](https://drive.google.com/file/d/1AkV-n2MdyfuZTFvcon8Z4leyVb0i7x63/view?usp=sharing) and put it into `./checkpoints/enlightening`
 
-```python scipts/script.py --predict```
+```python scripts/script.py --predict```
 
 ### Dataset preparing
 
