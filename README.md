@@ -32,7 +32,7 @@ then run the following command
 
 Download [pretrained model](https://drive.google.com/file/d/1AkV-n2MdyfuZTFvcon8Z4leyVb0i7x63/view?usp=sharing) and put it into `./checkpoints/enlightening`
 
-Create directories `../test_dataset/testA` and `../test_dataset/testB`. Put your test images on ../test_dataset/testA and run python scripts/script.py --predict. (And you should keep whatever one image in testB to make sure program can start.)
+Create directories `../test_dataset/testA` and `../test_dataset/testB`. Put your test images on `../test_dataset/testA` and run python scripts/script.py --predict. (And you should keep whatever one image in testB to make sure program can start.)
 
 ```python scripts/script.py --predict```
 
