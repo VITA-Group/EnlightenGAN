@@ -44,7 +44,7 @@ Training data [[Google Drive]](https://drive.google.com/drive/folders/1fwqz8-RnT
 
 Testing data [[Google Drive]](https://drive.google.com/open?id=1PrvL8jShZ7zj2IC3fVdDxBY1oJR72iDf) (including LIME, MEF, NPE, VV, DICP)
 
-And [[BaiduYun]][https://github.com/TAMU-VITA/EnlightenGAN/issues/28] is available now thanks to @YHLelaine!
+And [[BaiduYun]](https://github.com/TAMU-VITA/EnlightenGAN/issues/28) is available now thanks to @YHLelaine!
 If you find this work useful for you, please cite
 ```
 @article{jiang2019enlightengan,
