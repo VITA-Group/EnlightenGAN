@@ -105,7 +105,7 @@ def define_G(input_nc, output_nc, ngf, which_model_netG, norm='batch', use_dropo
         netG = DnCNN(opt, depth=17, n_channels=64, image_channels=1, use_bnorm=True, kernel_size=3)
     else:
         raise NotImplementedError('Generator model name [%s] is not recognized' % which_model_netG)
-    if len(gpu_ids) > 0:
+    if len(gpu_ids) >= 0:
         netG.cuda(device=gpu_ids[0])
         netG = torch.nn.DataParallel(netG, gpu_ids)
     netG.apply(weights_init)
