@@ -17,7 +17,7 @@ You should prepare at least 3 1080ti gpus or change the batch size.
 
 ```pip install -r requirement.txt``` </br>
 ```mkdir model``` </br>
-Download VGG pretrained model from [[Google Drive 1]](https://drive.google.com/file/d/1IfCeihmPqGWJ0KHmH-mTMi_pn3z3Zo-P/view?usp=sharing), [[2]](https://drive.google.com/file/d/190BBev58S1QRS2nDKQR5Ijx04_GOJgW6/view?usp=sharing) and then put them into the directory `model`.
+Download VGG pretrained model from [[Google Drive 1]](https://drive.google.com/file/d/1IfCeihmPqGWJ0KHmH-mTMi_pn3z3Zo-P/view?usp=sharing), and then put it into the directory `model`.
 
 ### Training process
 Before starting training process, you should launch the `visdom.server` for visualizing.
