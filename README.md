@@ -1,6 +1,6 @@
-# [TIP'2020]EnlightenGAN
+# EnlightenGAN
 
-[EnlightenGAN: Deep Light Enhancement without Paired Supervision](https://arxiv.org/abs/1906.06972)
+IEEE Transaction on Image Processing, 2020, [EnlightenGAN: Deep Light Enhancement without Paired Supervision](https://arxiv.org/abs/1906.06972)
 
 ### Representitive Results
 ![representive_results](/assets/show_3.png)
