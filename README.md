@@ -1,4 +1,4 @@
-# EnlightenGAN
+# [TIP'2020]EnlightenGAN
 
 [EnlightenGAN: Deep Light Enhancement without Paired Supervision](https://arxiv.org/abs/1906.06972)
 
