@@ -49,13 +49,13 @@ And [[BaiduYun]](https://github.com/TAMU-VITA/EnlightenGAN/issues/28) is availab
 
 If you find this work useful for you, please cite
 ```
-@ARTICLE{9334429,
-  author={Y. {Jiang} and X. {Gong} and D. {Liu} and Y. {Cheng} and C. {Fang} and X. {Shen} and J. {Yang} and P. {Zhou} and Z. {Wang}},
-  journal={IEEE Transactions on Image Processing}, 
-  title={EnlightenGAN: Deep Light Enhancement Without Paired Supervision}, 
-  year={2021},
+@article{jiang2021enlightengan,
+  title={Enlightengan: Deep light enhancement without paired supervision},
+  author={Jiang, Yifan and Gong, Xinyu and Liu, Ding and Cheng, Yu and Fang, Chen and Shen, Xiaohui and Yang, Jianchao and Zhou, Pan and Wang, Zhangyang},
+  journal={IEEE Transactions on Image Processing},
   volume={30},
-  number={},
-  pages={2340-2349},
-  doi={10.1109/TIP.2021.3051462}}
+  pages={2340--2349},
+  year={2021},
+  publisher={IEEE}
+}
 ```
