@@ -46,6 +46,10 @@ Testing data [[Google Drive]](https://drive.google.com/open?id=1PrvL8jShZ7zj2IC3
 
 And [[BaiduYun]](https://github.com/TAMU-VITA/EnlightenGAN/issues/28) is available now thanks to @YHLelaine!
 
+### Faster Inference
+https://github.com/arsenyinfo/EnlightenGAN-inference from @arsenyinfo
+
+
 
 If you find this work useful for you, please cite
 ```
