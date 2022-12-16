@@ -1,6 +1,8 @@
-# EnlightenGAN
+# EnlightenGAN: Deep Light Enhancement without Paired Supervision
+[Yifan Jiang](https://yifanjiang19.github.io/), Xinyu Gong, Ding Liu, Yu Cheng, Chen Fang, Xiaohui Shen, Jianchao Yang, Pan Zhou, Zhangyang Wang
 
-IEEE Transaction on Image Processing, 2020, [EnlightenGAN: Deep Light Enhancement without Paired Supervision](https://arxiv.org/abs/1906.06972) [Supplementary Materials](https://yifanjiang.net/files/EnlightenGAN_Supplementary.pdf)
+[[Paper]](https://arxiv.org/abs/1906.06972) [[Supplementary Materials]](https://yifanjiang.net/files/EnlightenGAN_Supplementary.pdf)
+
 
 ### Representitive Results
 ![representive_results](/assets/show_3.png)
