@@ -38,7 +38,7 @@ Create directories `../test_dataset/testA` and `../test_dataset/testB`. Put your
 
 Run
 
-```python scripts/script.py --predict```
+```python scripts/script.py --dataroot ../test_dataset --predict ```
 
 ### Dataset preparing
 
