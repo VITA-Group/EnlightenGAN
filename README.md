@@ -32,7 +32,7 @@ then run the following command
 
 ### Testing process
 
-Download [pretrained model](https://drive.google.com/file/d/1AkV-n2MdyfuZTFvcon8Z4leyVb0i7x63/view?usp=sharing) and put it into `./checkpoints/enlightening`
+Download [pretrained model](https://drive.google.com/file/d/1AkV-n2MdyfuZTFvcon8Z4leyVb0i7x63/view?usp=drive_link) and put it into `./checkpoints/enlightening`
 
 Create directories `../test_dataset/testA` and `../test_dataset/testB`. Put your test images on `../test_dataset/testA` (And you should keep whatever one image in `../test_dataset/testB` to make sure program can start.)
 
@@ -42,9 +42,9 @@ Run
 
 ### Dataset preparing
 
-Training data [[Google Drive]](https://drive.google.com/drive/folders/1fwqz8-RnTfxgIIkebFG2Ej3jQFsYECh0?usp=sharing) (unpaired images collected from multiple datasets)
+Training data [[Google Drive]](https://drive.google.com/drive/folders/1KivxOm79VidSJnJrMV9osr751UD68pCu?usp=drive_link) (unpaired images collected from multiple datasets)
 
-Testing data [[Google Drive]](https://drive.google.com/open?id=1PrvL8jShZ7zj2IC3fVdDxBY1oJR72iDf) (including LIME, MEF, NPE, VV, DICP)
+Testing data [[Google Drive]](https://drive.google.com/drive/folders/1PrvL8jShZ7zj2IC3fVdDxBY1oJR72iDf?usp=drive_link) (including LIME, MEF, NPE, VV, DICP)
 
 And [[BaiduYun]](https://github.com/TAMU-VITA/EnlightenGAN/issues/28) is available now thanks to @YHLelaine!
 
