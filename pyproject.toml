@@ -1,0 +1,74 @@
+[tool.poetry]
+name = "unit"
+version = "0.1.0"
+description = "Image-to-image translation using unsupervised domain adaptation"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+license = "MIT"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.8"
+torch = ">=0.3.1"
+torchvision = ">=0.2.0"
+visdom = "*"
+dominate = "*"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+pytest-mock = "^3.11.0"
+
+[tool.poetry.scripts]
+test = "pytest:main"
+tests = "pytest:main"
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = [
+    "-ra",
+    "--strict-markers",
+    "--strict-config",
+    "--cov=data",
+    "--cov=models",
+    "--cov=options",
+    "--cov=util",
+    "--cov=seg",
+    "--cov-branch",
+    "--cov-report=html",
+    "--cov-report=xml",
+    "--cov-report=term-missing:skip-covered",
+]
+testpaths = ["tests"]
+python_files = "test_*.py"
+python_classes = "Test*"
+python_functions = "test_*"
+markers = [
+    "unit: Unit tests",
+    "integration: Integration tests",
+    "slow: Slow tests",
+]
+
+[tool.coverage.run]
+source = ["data", "models", "options", "util", "seg"]
+omit = [
+    "*/tests/*",
+    "*/__pycache__/*",
+    "*/site-packages/*",
+]
+
+[tool.coverage.report]
+precision = 2
+show_missing = true
+skip_covered = false
+fail_under = 80
+
+[tool.coverage.html]
+directory = "htmlcov"
+
+[tool.coverage.xml]
+output = "coverage.xml"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
