@@ -118,3 +118,28 @@ venv.bak/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+
+# Claude settings
+.claude/*
+
+# Poetry
+# Don't ignore lock file - it should be committed
+# poetry.lock
+
+# Testing
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+.pytest_cache/
+*.pytest_cache
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
